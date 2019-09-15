@@ -1,1 +1,1 @@
-# voidpumpkin-eslint-config
+# eslint-config-voidpumpkin
