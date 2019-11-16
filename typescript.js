@@ -1,10 +1,6 @@
-const prettierRules = require('./prettier.config.js');
+const eslintConfig = require('./.eslintrc.js');
 module.exports = {
-    extends: ['eslint:recommended', 'prettier'],
-    plugins: ['prettier'],
-    rules: {
-        'prettier/prettier': ['error', prettierRules]
-    },
+    extends: ['./'],
     overrides: [
         {
             files: ['*.ts', '*.tsx'],

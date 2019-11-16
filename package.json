@@ -14,7 +14,9 @@
     "license": "MIT",
     "peerDependencies": {
         "eslint": ">= 6.3",
-        "prettier": ">= 1.18"
+        "prettier": ">= 1.18",
+        "eslint-plugin-prettier": ">= 3.1.0",
+        "@typescript-eslint/eslint-plugin": ">= 2.5.0"
     },
     "dependencies": {
         "@typescript-eslint/eslint-plugin": "^2.5.0",
